@@ -1,27 +1,62 @@
 body{
     margin: 0;
+    background-color: transparent;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0;
+}
+
+
 
 .image{
     background-image: url("https://github.com/user-attachments/assets/5a92c56e-3962-4a49-afdc-f3d0d5fed42f");
-    background-attachment: fixed;
-    height: 500px;
-    background-repeat: no-repeat;
-    
+    height: auto;
+    width: 100%;
     background-size: 100%100%;
-    position: relative;
+}
+
+.heading{
+    color: antiquewhite;
+    padding-top: 20%;
+    padding-left: 257px;
+    transition: 2s ease;
+    size: 100%100%;
+}
+
+.heading:hover{
+   color: black;
+   transform: scale(1.1);
 
 }
+
 
 .text{
     color: black;
-    text-align: center;
-    top: 50%;
-    left: 50%;
+    padding-top: 30%;
+    padding-left: 75%;
+    size: 100%100%;
+    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: fixed;
-    position: center;
+   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
